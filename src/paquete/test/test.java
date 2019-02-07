@@ -7,9 +7,10 @@ public class test {
 		
 		paquetes.persona p = new paquetes.persona(21, "Leo","Masculino");
 		paquetes.subpaquete.persona p2 = new paquetes.subpaquete.persona(21, "Alan");
-		System.out.println("inicio de impresion.");
+		paquetes.persona p3 = new paquetes.persona(10, "Emiliano", "Masculino");
 		System.out.println(p.toString());
 		System.out.println(p2.toString());
+		System.out.println(p3.toString());
 		
 	}
 
